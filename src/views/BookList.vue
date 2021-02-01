@@ -15,10 +15,11 @@
 </template>
 <script>
 import Book from '@/components/Book'
+
 export default {
     components: {Book},
     computed: {
-        books(){return this.$root.$data.books}
+        books(){return this.$store.state.bookList}
     },
     
     methods: {

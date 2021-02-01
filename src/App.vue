@@ -8,7 +8,7 @@
 export default {
   data: () => ({
     slideToggle: true
-  })
+  }), 
 }
 </script>
 
